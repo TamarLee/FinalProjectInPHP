@@ -50,7 +50,7 @@ http://www.templatemo.com/tm-487-fitness
                 <span class="icon icon-bar"></span>
                 <span class="icon icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">Fitness</a>
+            <a href="/fp/public/" class="navbar-brand">Fitness</a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right main-navigation">

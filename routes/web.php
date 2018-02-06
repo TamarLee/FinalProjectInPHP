@@ -15,13 +15,11 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get("/trainer", function(){
-	return view('trainer');
+Route::get("/contact", function(){
+	return view('contact');
 });
 
-Route::get("/blog", function(){
-	return view('blog');
-});
+Route::get("/blog", "BlogController@showBlog");
 
 Route::get("/price", function(){
 	return view('price');
@@ -31,9 +29,7 @@ Route::get("/testimonial", function(){
 	return view('testimonial');
 });
 
-Route::get("/contact", function(){
-	return view('contact');
-});
+Route::get("/trainer", "TrainerController@showTrainer");
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

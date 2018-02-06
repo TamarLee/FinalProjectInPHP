@@ -96,9 +96,7 @@ a {
 
 
 
-/*---------------------------------------
-    Preloader section              
------------------------------------------*/
+/*preload*/
 .preloader {
   position: fixed;
   top: 0;
@@ -142,9 +140,7 @@ a {
 
 
 
-/*---------------------------------------
-    Navigation section              
------------------------------------------*/
+/*navigation*/
 .navbar-default {
     background: #ffffff;
     border-bottom: 2px solid #f9f9f9;
@@ -207,9 +203,7 @@ a {
 
 
 
-/*---------------------------------------
-    Home section              
------------------------------------------*/
+/*home*/
 #home {
     background: 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
@@ -251,9 +245,7 @@ a {
 
 
 
-/*---------------------------------------
-   Overview  section              
------------------------------------------*/
+/*about*/
 #overview {
   padding-top: 14rem;
   padding-bottom: 20rem;
@@ -303,9 +295,7 @@ a {
 
 
 
-/*---------------------------------------
-   Trainer section              
------------------------------------------*/
+/*trainer*/
 #trainer {
   background: #f9f9f9;
 }
@@ -363,11 +353,9 @@ a {
 
 
 
-/*---------------------------------------
-   Newsletter section              
------------------------------------------*/
+/*blog*/
 #newsletter {
-    background: url('../images/newsletter-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/anna.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
@@ -417,9 +405,7 @@ a {
 
 
 
-/*---------------------------------------
-    Blog section              
------------------------------------------*/
+/*blog*/
 #blog .blog-thumb {
   border: 1px solid #f0f0f0;
   position: relative;
@@ -429,7 +415,7 @@ a {
 }
 
 #blog .blog-thumb:hover {
-  background: url('../images/blog-thumb.jpg');
+  background: url('../images/anna.jpg');
    -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -467,7 +453,7 @@ a {
 /* blog single page */
 
 #blog-header {
-    background: url('../images/blog-header-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/anna.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: bottom center;
@@ -630,7 +616,7 @@ a {
     Price section              
 -----------------------------------------*/
 #price {
-  background: url('../images/price-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/anna.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
