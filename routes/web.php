@@ -27,6 +27,14 @@ Route::get("/price", function(){
 	return view('price');
 });
 
+Route::get("/testimonial", function(){
+	return view('testimonial');
+});
+
+Route::get("/contact", function(){
+	return view('contact');
+});
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
