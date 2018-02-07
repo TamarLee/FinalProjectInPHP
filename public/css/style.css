@@ -11,10 +11,19 @@ html,body {
      overflow-x: hidden;
   }
 
+.featuresincontact {
+  display: inline-block;
+}
 
-/*---------------------------------------
-    Typorgraphy              
------------------------------------------*/
+.firstcontact {
+  margin: 0 50px 50px 20px;
+  width: 400px;
+}
+
+.secondcontact {
+  margin: 150px 0 0 0;
+}
+
 h1,h2,h3,h4,h5,h6,
 blockquote {
   font-weight: 600;
@@ -70,9 +79,6 @@ a {
 }
 
 
-/*---------------------------------------
-    General               
------------------------------------------*/
 #trainer,
 #blog,
 #price {

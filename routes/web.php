@@ -21,9 +21,7 @@ Route::get("/contact", function(){
 
 Route::get("/blog", "BlogController@showBlog");
 
-Route::get("/price", function(){
-	return view('price');
-});
+Route::get("/price", "PriceController@showPrice");
 
 Route::get("/testimonial", function(){
 	return view('testimonial');

@@ -17,9 +17,9 @@ sticky-navigation
         <div class="row">
 
             <div class="col-md-offset-1 col-md-10 col-sm-12">
-                <h3 class="wow bounceIn" data-wow-delay="0.9s">სატრენაჟორო დარბაზი</h3>
-                <h1 class="wow fadeInUp" data-wow-delay="1.6s">
-                Lians fitness</h1>
+                <h3 class="wow bounceIn coloroftext" data-wow-delay="0.9s">სატრენაჟორო დარბაზი</h3>
+                <h1 class="wow fadeInUp coloroftext" data-wow-delay="1.6s">
+                Lions fitness</h1>
                 <a href="#overview" class="wow fadeInUp smoothScroll btn btn-default" data-wow-delay="2s">გაიგე მეტი</a>
             </div>
 
