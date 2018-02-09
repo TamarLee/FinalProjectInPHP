@@ -18,8 +18,9 @@
                 <h2>ფიტნეს ბლოგი</h2>
                 <p>ფიტნეს-ინსტრუქტორის რჩევები</p>
             </div>
+            
             @foreach($blog as $value)
-            <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.9s">
+            <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.9s" style="margin-bottom: 70px;">
                 <div class="blog-thumb">
                     <span class="blog-date">{{$value->category}} / {{$value->date}}</span>
                     <h3 class="blog-title"><a href="singleblog">{{$value->title}}</a></h3>
@@ -27,8 +28,10 @@
                 </div>
             </div>
             @endforeach
-            <nav class="numbering numcenter">
+            <nav class="numbering" align="center">
+                
                 {{ $blog->links() }}
+                
             </nav>
 
             
