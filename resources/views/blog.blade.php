@@ -27,9 +27,14 @@
                 </div>
             </div>
             @endforeach
-                        
-        </div>
+            <nav class="numbering numcenter">
+                {{ $blog->links() }}
+            </nav>
+
+            
+        </nav>
     </div>
+</div>
 </section>
 
 @endsection

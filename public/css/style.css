@@ -1,7 +1,7 @@
 
 body {
     background: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'roboto';
     font-style: normal;
     font-weight: 300;
 }
@@ -9,19 +9,11 @@ body {
 html,body {
       width: 100%;
      overflow-x: hidden;
-  }
-
-.featuresincontact {
-  display: inline-block;
 }
 
-.firstcontact {
-  margin: 0 50px 50px 20px;
-  width: 400px;
-}
-
-.secondcontact {
-  margin: 150px 0 0 0;
+.margincontact {
+  padding-top: 150px;
+  padding-bottom: 50px;
 }
 
 h1,h2,h3,h4,h5,h6,

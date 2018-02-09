@@ -5,7 +5,7 @@ use App\Blog;
 class BlogController extends Controller
 {
 	public function showBlog(){
-		$blog = Blog::all();
+		$blog = Blog::paginate(4);
     	return view('blog', [
     		'blog'=>$blog
     	]);
