@@ -13,14 +13,14 @@ http://www.templatemo.com/tm-487-fitness
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" href="css/owl.theme.css">
-<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="{{ url('css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ url('css/animate.css') }}">
+<link rel="stylesheet" href="{{ url('css/font-awesome.min.css') }}">
+<link rel="stylesheet" href="{{ url('css/owl.theme.css') }}">
+<link rel="stylesheet" href="{{ url('css/owl.carousel.css') }}">
 
 <!-- Main css -->
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="{{ url('css/style.css') }}">
 
 <!-- Google Font -->
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
@@ -114,15 +114,15 @@ http://www.templatemo.com/tm-487-fitness
 </footer>
 
 <!-- js -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.parallax.js"></script>
-<script src="js/jquery.nav.js"></script>
-<script src="js/jquery.backstretch.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="{{ url('js/jquery.js') }}"></script>
+<script src="{{ url('js/bootstrap.min.js') }}"></script>
+<script src="{{ url('js/jquery.parallax.js') }}"></script>
+<script src="{{ url('js/jquery.nav.js') }}"></script>
+<script src="{{ url('js/jquery.backstretch.min.js') }}"></script>
+<script src="{{ url('js/owl.carousel.min.js') }}"></script>
+<script src="{{ url('js/smoothscroll.js') }}"></script>
+<script src="{{ url('js/wow.min.js') }}"></script>
+<script src="{{ url('js/custom.js') }}"></script>
 
 </body>
 </html>
