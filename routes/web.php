@@ -18,6 +18,9 @@ Route::get('/', function () {
 Route::resource("/contact", "ContactController");
 
 Route::get("/blog", "BlogController@showBlog");
+Route::get("/blog/{id}", function(){
+	return view("singleBlog");
+});
 
 Route::get("/price", "PriceController@showPrice");
 

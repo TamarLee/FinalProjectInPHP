@@ -6,7 +6,7 @@ class BlogController extends Controller
 {
 	public function showBlog(){
 		$blog = Blog::paginate(4);
-    	return view('blog', [
+    	return view('blog' [
     		'blog'=>$blog
     	]);
     }
