@@ -26,7 +26,7 @@ http://www.templatemo.com/tm-487-fitness
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Lora:700italic' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab" rel="stylesheet">
-<link rel="stylesheet" href="css/bpg-nino-mtavruli-bold.min.css">
+<link rel="stylesheet" href="{{ url('css/bpg-nino-mtavruli-bold.min.css') }}">
 
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">

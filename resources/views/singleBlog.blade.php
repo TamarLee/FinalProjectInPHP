@@ -33,13 +33,15 @@
 
 			<div class="col-md-8 col-sm-7">
 				@foreach($singleblog as $value)
-				<div class="blog-content wow fadeInUp" data-wow-delay="1s">
+				<div class="blog-content wow fadeInUp" data-wow-delay="1s" style="font-family: "BPG Nino Mtavruli Bold", sans-serif;">
+
                 	<h3>{{ $value->title }}</h3>
 					<span class="meta-date"><a href="#">{{ $value->date }}</a></span>
 					
 					<span class="meta-author"><a href="#blog-author">{{ $value->author }}</a></span>
 					<div class="blog-clear"></div>
-					<p>{{ $value->text }}</p>
+					<div style="margin-bottom: 50px;"><img src="../images/{{ $value->image }}"></div>
+					<p>{!! $value->text !!}</p>
 				</div>
                 @endforeach
 				
