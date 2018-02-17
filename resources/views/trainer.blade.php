@@ -15,7 +15,7 @@
                 <h2>ინსტრუქტორები</h2>
             </div>
             @foreach($trainer as $value)
-            <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1.9s">
+            <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="1.9s" style="font-family: 'Tinos', serif;">
                 <div class="trainer-thumb">
                     <img src="images/{{$value->image}}" class="img-responsive" alt="Trainer">
                         <div class="trainer-overlay">

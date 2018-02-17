@@ -27,6 +27,9 @@ http://www.templatemo.com/tm-487-fitness
 <link href='https://fonts.googleapis.com/css?family=Lora:700italic' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab" rel="stylesheet">
 <link rel="stylesheet" href="{{ url('css/bpg-nino-mtavruli-bold.min.css') }}">
+<link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
+<link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/bpg-arial/css/bpg-arial.min.css">
+<link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
 
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
@@ -41,7 +44,7 @@ http://www.templatemo.com/tm-487-fitness
 
 
 <!-- navigation -->
-<div class="navbar navbar-default navbar-fixed-top @yield('navclass')" role="navigation" style="font-family: 'Roboto Slab', serif;">
+<div class="navbar navbar-default navbar-fixed-top @yield('navclass')" role="navigation">
     <div class="container">
 
         <div class="navbar-header">
@@ -50,9 +53,9 @@ http://www.templatemo.com/tm-487-fitness
                 <span class="icon icon-bar"></span>
                 <span class="icon icon-bar"></span>
             </button>
-            <a href="/fp/public/" class="navbar-brand">Lions Fitness</a>
+            <a href="/fp/public/" class="navbar-brand" style="font-family: 'Tinos', serif;">Lions Fitness</a>
         </div>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" style="font-family: "BPG Nino Mtavruli Bold", sans-serif;">
             <ul class="nav navbar-nav navbar-right main-navigation">
                 {{ menu('main_menu', 'bootstrap') }}
             </ul>
@@ -86,7 +89,7 @@ http://www.templatemo.com/tm-487-fitness
             <div class="wow fadeInUp col-md-5 col-sm-4"  data-wow-delay="0.3s">
                 <h2>ღიაა</h2>
                     <div>
-                        <h5>ყოველ დღე</h5>
+                        <p>ყოველ დღე</p>
                         <h4>8:00am - 2:00am</h4>
                     </div>
                     

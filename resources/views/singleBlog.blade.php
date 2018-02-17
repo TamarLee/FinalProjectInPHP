@@ -7,9 +7,7 @@
 
 
 @section('content')
-<!-- =========================
-    BLOG HEADER SECTION   
-============================== -->
+<!-- blog header -->
 <section id="blog-header" class="parallax-section" style="margin-top: 80px;">
 	<div class="container">
 		<div class="row">
@@ -24,16 +22,14 @@
 	</div>
 </section>
 
-<!-- =========================
-    BLOG SECTION   
-============================== -->
+<!-- blog-->
 <section id="blog" class="parallax-section">
 	<div class="container">
 		<div class="row">
 
 			<div class="col-md-8 col-sm-7">
 				@foreach($singleblog as $value)
-				<div class="blog-content wow fadeInUp" data-wow-delay="1s" style="font-family: "BPG Nino Mtavruli Bold", sans-serif;">
+				<div class="blog-content wow fadeInUp" data-wow-delay="1s" style="font-family: 'Tinos', serif;">
 
                 	<h3>{{ $value->title }}</h3>
 					<span class="meta-date"><a href="#">{{ $value->date }}</a></span>

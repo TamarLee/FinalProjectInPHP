@@ -40,7 +40,7 @@ sticky-navigation
 
             <div class="col-md-1"></div>
 
-            <div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="1s">
+            <div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="1s" style="font-family: 'Tinos', serif;">
                 <div class="overview-detail">
                     <h2>ჩვენს შესახებ</h2>
                     <p>Lions Fitness არის სატრენაჟორო დარბაზი, რომელიც გამოირჩევა უნიკალური დიზაინით, და მომხმარებელზე მაქსიმალურად ორიენტირებული პერსონალით.  ცენტრი მომხმარებლებს სთავაზობს ისეთ ვარჯიშებს როგორიცაა: <br> •   კარდიო ვარჯიშები, <br>•   მძიმე დატვირთვის ვარჯიშებს,<br>•   აერობიკას,<br>•   პილატესს,<br>•   ზუმბას,<br>•   სპინინგის ოთახი,<br>•   სინერჯი ტრეინინგი<br>•   და მრავალი სხვა.</p>

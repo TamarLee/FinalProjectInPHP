@@ -1,10 +1,9 @@
 
 body {
     background: #ffffff;
-    font-family: 'roboto';
     font-style: normal;
     font-weight: 300;
-    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    font-family: 'Tinos', serif;
 }
 
 html,body {
@@ -20,8 +19,7 @@ html,body {
 h1,h2,h3,h4,h5,h6,
 blockquote {
   font-weight: 600;
-
-     font-family: 'Roboto', sans-serif;
+  font-family: 'Tinos', serif;
 }
 
 h1 {
@@ -48,7 +46,7 @@ h2 {
 
 blockquote, h3 {
   
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Tinos', serif;
   font-style: italic;
 }
 
